@@ -1,0 +1,121 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+header {
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    top: 0;
+    z-index: 9999;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+#nav-bar li {
+    list-style: none;
+    margin-right: 10px;
+    padding: 0px 15px;
+    display: inline-block;
+}
+
+#nav-bar li a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+/* MISSION STATEMENT */
+#mission {
+    margin: 0 auto;
+    display: flex;
+    background-image: url("../images/mission-background.jpg");
+    width: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    justify-content: center;
+}
+
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+/* FEATURED TEA */
+#featured-tea {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.featured-container {
+    margin: 0 5px;
+    display: inline-block;
+} 
+
+.featured-container img {
+    width: 300px;
+    height: 200px;
+}
+
+/* LOCATIONS */
+#locations {
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    background-image: url("../images/locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+}
+
+#locations h2 {
+    padding-top: 70px;
+}
+
+#location-container {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location {
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+/* FOOTER */
+footer a {
+    text-decoration: none;
+    color: seashell;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+}
